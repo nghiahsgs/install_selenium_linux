@@ -14,11 +14,13 @@ def initDriver():
     return driver
 
 driver=initDriver()
-driver.get("http://nghiahsgs.com/vps")
-text=driver.find_element_by_css_selector('body').text
-print(text)
+#driver.get("http://nghiahsgs.com/vps")
+#text=driver.find_element_by_css_selector('body').text
+#print(text)
 
-driver.get_screenshot_as_file('test.png')
+driver.get('http://nghiahsgs.com')
+
+driver.get_screenshot_as_file('test2.png')
 driver.close()
 
 
