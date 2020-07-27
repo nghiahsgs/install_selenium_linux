@@ -21,7 +21,8 @@ sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable
 ```
 
-+ chromedriver version depend on chrome version
++ chromedriver version depend on chrome version <br>
+You need to get link download newest chrome selenium on https://chromedriver.chromium.org/downloads. For examples: current chrome version is v79
 ```
 # Install ChromeDriver.
 wget -N https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip -P ~/
