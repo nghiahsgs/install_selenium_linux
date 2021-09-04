@@ -14,12 +14,26 @@ sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
 
 + STEP 2
 ```
-# Install Chrome.
+# Install Chrome way 1
 sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
 sudo echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
 sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable
 ```
+
+# Install Chrome way 2 (if way 1 err)
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+if wget: unable to resolve host address `http'
+```
+vi /etc/resolv.conf.
+nameserver 8.8.8.8 
+put in the first line
+```
+
+
 
 Get current version of chrome
 ```
