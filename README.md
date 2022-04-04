@@ -21,7 +21,7 @@ sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable
 ```
 
-# Install Chrome way 2 (if way 1 err)
+## Install Chrome way 2 (if way 1 err)
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
@@ -35,7 +35,7 @@ put in the first line
 
 
 
-Get current version of chrome
+# Get current version of chrome
 ```
  google-chrome --version
 ```
