@@ -75,3 +75,11 @@ driver.get("https://www.google.com")
 print(driver.title)
 driver.close()
 ```
+
+
+
+
+### START chrome
+```
+/opt/google/chrome/google-chrome --no-sandbox
+```
